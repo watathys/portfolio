@@ -20,10 +20,9 @@
 
   .joe
   {
-      color: blueviolet;
       position: absolute;
       top: 34px;
-      left: 700px;
+      left: 940px;
       font-family:'Courier New', Courier, monospace;
       font-weight: 1000;
       font-size: 150%;
@@ -77,5 +76,33 @@
   .page
   {
       background-color: black;
+  }
+
+  .avatar {
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    border-radius: 50%;
+    background-color: #D6E9FE;
+  }
+  
+  .username {
+      color: white;
+  }
+  
+  .comment {
+      color: white;
+    padding: 10px;
+    overflow: hidden;  /* This is important */
+  }
+
+  .this-background
+  {
+      background-color: black;
+      padding: 20px;
   }
   
