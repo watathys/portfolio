@@ -10,7 +10,6 @@
 
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-expand-lg, .navbar-dark .navbar-nav .nav-link:hover {
     color: rgb(43, 36, 36) !important;
-    border: #fff;
   }
   
   .navbar-dark .navbar-nav .nav-link
@@ -21,11 +20,13 @@
 
   .joe
   {
+      position: absolute;
+      top: 34px;
+      left: 650px;
       font-family:'Courier New', Courier, monospace;
       font-weight: 1000;
-      font-size: 200%;
+      font-size: 150%;
       color: #fff;
-      padding-left: 400px;
   }
   .background
   {
@@ -60,8 +61,20 @@
     margin-top: 1px;
   }
 
+  .portfolio {
+    display: grid;
+    grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+  
   img 
   {
     width: 100%;
+  }
+
+  .page
+  {
+      background-color: black;
   }
   
